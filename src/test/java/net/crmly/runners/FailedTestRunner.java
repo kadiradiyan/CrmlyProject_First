@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
 // When we run it, it will execute the "failed" scenarios that are stored in the rerun.txt
 
 
-        glue = "com/nextbase/step_definitions",
+        glue = "net/crmly/step_definitions",
         features = "@target/rerun.txt")
 public class FailedTestRunner {
 }

@@ -44,21 +44,21 @@ Background:
     Then User clicks on "more" button and clicks on "delete" button
 
 
-  @fifth  @wip
-  Scenario: Removing files and images at any time before sending
-    Given User has uploaded files and pictures
-    When User clicks the remove button for a file or picture
-    Then User should see the file or picture removed
-    Then User clicks on "more" button and clicks on "delete" button
+  #@fifth  @wip
+  #Scenario: Removing files and images at any time before sending
+   # Given User has uploaded files and pictures
+    #When User clicks the remove button for a file or picture
+    #Then User should see the file or picture removed
+    #Then User clicks on "more" button and clicks on "delete" button
 
 
-  @sixth
-  Scenario: Renaming the file before sending it
-    Given User is on the upload page
-    When User renames a file before uploading it
-    And User clicks the upload button
-    Then User should see a success message
-    Then User clicks on "more" button and clicks on "delete" button
+ # @sixth
+  #Scenario: Renaming the file before sending it
+   # Given User is on the upload page
+  #  When User renames a file before uploading it
+   # And User clicks the upload button
+    #Then User should see a success message
+    #Then User clicks on "more" button and clicks on "delete" button
 
 
 

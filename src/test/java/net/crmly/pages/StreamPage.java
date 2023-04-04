@@ -34,18 +34,7 @@ public class StreamPage {
     @FindBy(xpath = "(//td//span[.='Insert in text'])//span")
     public WebElement insertInText;
 
-    //  @FindBy (xpath = "(//body[@class='vsc-initialized'])[1]//span")
-    //   public WebElement intextPDF; // could be wrong
-
-    @FindBy(xpath = "//*[contains(@id,'disk-edit-attachn')]/td[1]/span[1]/span[contains(text(),'UK Map A4')]")
-    public WebElement intextPDF;
-
-    @FindBy(xpath = "//*[contains(@id,'disk-edit-attachn')]/td[1]/span[1]/span[.='serene.png']")
-    public WebElement intextPng;
-
-    @FindBy(xpath = "//*[contains(@id,'disk-edit-attachn')]/td[1]/span[1]/span[.='Sunflower.jpg']")
-    public WebElement intextJPEG;
-
+  
     @FindBy (xpath = "//span[@class='files-name-edit-btn']")
     public WebElement editButton;
     @FindBy (xpath = "(//span[@class='del-but'])[1]")

@@ -17,18 +17,6 @@ public class AssertionPage {
     public WebElement activityStreamTab;
 
 
-    // @FindBy( css = "a#disk-attach-536")
-    @FindBy(xpath = "//a[@title='UK Map A4.pdf'] ")
-    public WebElement expectedTitleForPdf;
-
-    // @FindBy(css = "a#disk-attach-534")
-    @FindBy(xpath = "//a[@title='test.docx']")
-    public WebElement expectedForDocx;
-
-    //@FindBy (css = "a#disk-attach-535")
-    @FindBy(xpath = "//a[@title='test.txt']")
-    public WebElement expectedForTxt;
-
 
 
     @FindBy(xpath = "(//*[@class='feed-com-files-cont'])[1]//img[@alt]")
